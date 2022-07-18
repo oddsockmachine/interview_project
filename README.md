@@ -14,9 +14,13 @@ We have a server connected to the internet.
 Team members from our company ssh to that server for their work.
 Each ssh session is logged, with the IP address of the user, start and end time of the session.
 The format of each log line is:
+
 `{ip}.{ip}.{ip}.{ip} : dd/mm/yy hh:mm - dd/mm/yy hh:mm`
+
 For example:
+
 `80.112.125.122 : 18/07/22 01:06 - 18/07/22 01:18`
+
 We would like to take log files like this, understand the contents, and perform some basic analysis to alert us if anything shady is happening... things like extra long ssh sessions, or some IPs accessing repeatedly.
 
 ## Example roadmap
