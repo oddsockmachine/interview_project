@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a small project, based on a real-world use-case, to take on in a pair-programming session.
+This is a small project, based on a (contrived) real-world use-case, to take on in a pair-programming session.
 It is designed to be open-ended, and adaptable to a given candidate's experience.
 Early sections are routine and prescriptive, later sectons are complex and can be taken in any direction.
 Some sections will present no challenge to a candidate; they may move through these quickly, or they could be skipped to focus on a different topic. 
@@ -21,7 +21,7 @@ For example:
 
 `80.112.125.122 : 18/07/22 01:06 - 18/07/22 01:18`
 
-We would like to take log files like this, understand the contents, and perform some basic analysis to alert us if anything shady is happening... things like extra long ssh sessions, or some IPs accessing repeatedly.
+We would like to take log files like this, understand the contents, and perform some basic analysis to alert us if anything concerning is happening... things like extra long ssh sessions, or some IPs accessing repeatedly.
 
 ## Example roadmap
 
