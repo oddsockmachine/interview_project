@@ -26,4 +26,4 @@ for i, x in enumerate(sorted(random_date(startDate,100))):
     end = start + datetime.timedelta(minutes=randrange(60))
     end_str = end.strftime("%d/%m/%y %H:%M")
     ip = ips[i-1] if randint(0, 10) > 0 else ips[99]
-    print(f"{ip} : {start_str} - {end}")
+    print(f"{ip} : {start_str} - {end_str}")

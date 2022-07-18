@@ -26,5 +26,5 @@ for x in (random_date(startDate)):
     end_str = end.strftime("%d/%m/%y %H:%M")
     ip = ".".join(map(str, (random.randint(0, 255) for _ in range(4))))
     ip = ip if randint(0, 10) > 0 else bad_ip
-    print(f"{ip} : {start_str} - {end}")
+    print(f"{ip} : {start_str} - {end_str}")
     sleep(0.5)
