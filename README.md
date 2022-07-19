@@ -35,7 +35,7 @@ We would like to take log files like this, understand the contents, and perform 
 7. For a given log file, report on whether any IPs are accessing the host multiple times
 
 #### Streaming
-8. Consider how to operate live data - run `stream_test_logs.py`, pipe to a file or socket, and read in the live data
+8. Consider how to operate on live data - run `stream_test_logs.py`, pipe to a file or socket, and read in the live data
 9. Apply the same analyses to this streaming data: how can we alert on long sessions or multiple accesses?
 
 #### Infrastructure
